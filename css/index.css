@@ -2,10 +2,10 @@
 :root {
   --lightgray: #e0e0e0;
   --gray: #C0C0C0;
-  --darkgray: #333;
+  --light: #fff;
   --navy: #17050F;
   --blue: #082840;
-  --white: #fff;
+  --dark: #2e2e2e;
 }
 
 /* Global stylesheet */
@@ -18,8 +18,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
-  color: var(--darkgray);
-  background-color: var(--white);
+  color: var(--light);
+  background-color: var(--dark);
 }
 p:last-child {
   margin-bottom: 0;
