@@ -2,10 +2,10 @@
 :root {
   --lightgray: #e0e0e0;
   --gray: #C0C0C0;
-  --light: #fff;
+  --pink: rgba(240, 4, 127, 1);
   --navy: #17050F;
   --blue: #082840;
-  --dark: #2e2e2e;
+  --dark: rgba(22, 26, 43, 1);
 }
 
 /* Global stylesheet */
@@ -34,10 +34,10 @@ p,
   line-height: 1.45;
 }
 a[href] {
-  color: var(--light)
+  color: var(--pink)
 }
 a[href]:visited {
-  color: var(--light)
+  color: var(--pink)
 }
 main {
   padding: 1rem;
