@@ -37,8 +37,8 @@ p,
 a[href] {
   color: var(--light)
 }
-a[href]:hover, a[href]:visited {
-  border-bottom: var(--pink)
+a[href]:hover {
+  border-bottom: 0,25em solid var(--pink)
 }
 main {
   padding: 1rem;
