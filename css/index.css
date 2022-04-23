@@ -35,10 +35,10 @@ p,
   line-height: 1.45;
 }
 a[href] {
-  color: var(--pink)
+  color: var(--light)
 }
-a[href]:visited {
-  color: var(--pink)
+a[href]:hover, a[href]:visited {
+  border-bottom: var(--pink)
 }
 main {
   padding: 1rem;
