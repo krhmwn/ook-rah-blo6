@@ -21,6 +21,8 @@ body {
   font-family: -apple-system, system-ui, sans-serif;
   color: var(--light);
   background-color: var(--dark);
+  font-size: 1.075rem;
+  line-height:1.75;
 }
 p:last-child {
   margin-bottom: 0;
