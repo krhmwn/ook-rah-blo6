@@ -5,8 +5,8 @@
   --pink: rgba(240, 4, 127, 1);
   --navy: #17050F;
   --blue: #88c0d0;
-  --dark: #242933;
-  --light: #eceff4;
+  --dark: #24292f;
+  --light: #ffffff;
 }
 
 /* Global stylesheet */
@@ -19,8 +19,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
-  color: var(--light);
-  background-color: var(--dark);
+  color: var(--dark);
+  background-color: var(--light);
   font-size: 1.075rem;
   line-height:1.75;
 }
