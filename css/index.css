@@ -122,14 +122,15 @@ code {
 
 /* Posts list */
 .postlist {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30ch,1fr));
+    grid-gap: 2rem;
 }
 .postlist-item {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   align-items: baseline;
-  counter-increment: start-from -1;
   line-height: 1.8;
 }
 .postlist-item:before {
