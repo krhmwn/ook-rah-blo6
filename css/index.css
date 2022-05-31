@@ -134,6 +134,7 @@ code {
   display: grid;
   align-items: baseline;
   line-height: 1.8;
+  padding: 1rem clamp(0.5rem,5%,0.5rem)
 }
 
 .postlist-date,
