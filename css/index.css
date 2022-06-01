@@ -6,7 +6,8 @@
   --navy: #17050F;
   --blue: #88c0d0;
   --dark: #24292f;
-  --light: #ffffff;
+  --light: #FFFFFF;
+  --bright: #F7F5F2;
 }
 
 /* Global stylesheet */
@@ -134,7 +135,8 @@ code {
   display: grid;
   align-items: baseline;
   line-height: 1.8;
-  padding: 1rem clamp(0.5rem,5%,0.5rem)
+  padding: 1rem clamp(0.5rem,5%,1rem);
+  background-color: var(--bright);
 }
 
 .postlist-date,
