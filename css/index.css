@@ -50,7 +50,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  border-bottom: 0.063rem solid var(--lightgray);
 }
 header:after {
   content: "";
@@ -137,6 +137,8 @@ code {
   line-height: 1.8;
   padding: 1rem clamp(0.5rem,5%,1rem);
   background-color: var(--bright);
+  border-right: 0.063rem solid var(--lightgray);
+  border-bottom: 0.125rem solid var(--lightgray);
 }
 
 .postlist-date,
