@@ -5,7 +5,7 @@ eleventyNavigation:
   order: 1
 ---
 {% set maxPosts = collections.posts.length | min(999) %}
-<h1>Ook Rahmawan {% if maxPosts == 1 %}Post{% else %}({{ maxPosts }}){% endif %}</h1>
+<h1>Blog {% if maxPosts == 1 %}Post{% else %}({{ maxPosts }}){% endif %}</h1>
 
 {% set postslist = collections.posts | head(-999) %}
 {% set postslistCounter = collections.posts | length %}
