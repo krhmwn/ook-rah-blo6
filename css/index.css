@@ -1,13 +1,13 @@
 /* Colors */
 :root {
-  --lightgray: #e0e0e0;
-  --gray: #C0C0C0;
+  --lightgray: #EEEEEE;
+  --gray: #AAA492;
   --pink: rgba(240, 4, 127, 1);
   --navy: #17050F;
   --blue: #1C6DD0;
   --dark: #24292f;
   --light: #FFFFFF;
-  --bright: #FFF8F3;
+  --bright: #F7FFF2;
 }
 
 /* Global stylesheet */
