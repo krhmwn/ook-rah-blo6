@@ -4,10 +4,10 @@
   --gray: #C0C0C0;
   --pink: rgba(240, 4, 127, 1);
   --navy: #17050F;
-  --blue: #88c0d0;
+  --blue: #1C6DD0;
   --dark: #24292f;
   --light: #FFFFFF;
-  --bright: #F7F7F7;
+  --bright: #FFF8F3;
 }
 
 /* Global stylesheet */
@@ -141,7 +141,7 @@ code {
 
 .postlist-date,
 .postlist-item:before {
-  color: var(--darkgray);
+  color: var(--gray);
 }
 .postlist-date {
   word-spacing: -0.5px;
@@ -156,7 +156,7 @@ code {
 }
 .tmpl-home .postlist-link {
   font-size: 1.1875em; /* 19px /16 */
-  font-weight: 700;
+  font-weight: 600;
 }
 
 
