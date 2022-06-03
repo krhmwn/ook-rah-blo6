@@ -22,22 +22,12 @@ body {
   font-family: -apple-system, system-ui, sans-serif;
   color: var(--dark);
   background-color: var(--light);
-  font-size: 1.075rem;
+  font-size: 1.105rem;
   line-height:1.75;
 }
 p:last-child {
   margin-bottom: 0;
 }
-p,
-.tmpl-post li,
-img {
-  max-width: 37.5em; /* 600px /16 */
-}
-p,
-.tmpl-post li {
-  line-height: 1.45;
-}
-
 
 a[href]{color:var(--blue);text-decoration:none}
 a[href]:visited{color:var(--blue)}
