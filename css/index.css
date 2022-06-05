@@ -94,7 +94,7 @@ code {
   padding: 0 1rem;
   float: left;
   margin: 1rem 0; /* 16px /16 */
-  font-size: 1em; /* 16px /16 */
+  font-size: 1.105rem;
 }
 .home :link:not(:hover) {
   text-decoration: none;
@@ -176,18 +176,9 @@ code {
   margin-bottom: 0.5em; /* 6px /12 */
   color: var(--darkgray);
   border: 1px solid var(--gray);
-  border-radius: 0.25em; /* 3px /12 */
-  text-decoration: none;
   line-height: 1.8;
 }
-a[href].post-tag,
-a[href].post-tag:visited {
-  color: inherit;
-}
-a[href].post-tag:hover,
-a[href].post-tag:focus {
-  background-color: var(--lightgray);
-}
+
 .postlist-item > .post-tag {
   align-self: center;
 }
