@@ -164,7 +164,7 @@ code {
 
 
 /* Tags */
-.post-tag{color:var(--darkgray);display:inline-grid;align-items:center;justify-content:center;padding-right:.8em;font-size:90%;}
+.post-tag{color:var(--darkgray);display:block;padding-right:.8rem;font-size:90%;}
 .post-tag:before{content:"#"}
 .postlist-item > .post-tag {
   align-self: center;
