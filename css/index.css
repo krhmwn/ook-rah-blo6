@@ -24,6 +24,7 @@ body {
   background-color: var(--light);
   font-size: 1.105rem;
   line-height:1.75;
+  text-align: justify;
 }
 p:last-child {
   margin-bottom: 0;
