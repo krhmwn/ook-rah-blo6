@@ -28,7 +28,7 @@ body {
 p:last-child {
   margin-bottom: 0;
 }
-h1,h2,h3,h4{font-weight:normal}
+h1,h2,h3,h4{font-weight:600}
 h4{font-size:1.125em}
 h3{font-size:1.25em}
 h2{font-size:1.35em}
@@ -40,7 +40,7 @@ a[href]:visited{color:var(--blue)}
 a[href]:hover{text-decoration:underline}
 
 main {
-  width: min(80ch,100vw - 2rem);margin:5rem auto;padding: 1rem;
+  width: min(80ch,100vw - 2rem);margin:1rem auto 5rem;padding: 1rem;
 }
 main :first-child {
   margin-top: 0;
@@ -120,6 +120,11 @@ code {
 }
 
 /* Posts list */
+.tittle {
+    text-align: center;
+    padding: 5rem 0;
+}
+
 .postlist {
     list-style: none;
     padding: 0;
