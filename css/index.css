@@ -28,6 +28,12 @@ body {
 p:last-child {
   margin-bottom: 0;
 }
+h1,h2,h3,h4{font-weight:normal}
+h4{font-size:1.125em}
+h3{font-size:1.25em}
+h2{font-size:1.35em}
+h1{font-size:1.75em}
+
 
 a[href]{color:var(--blue);text-decoration:none}
 a[href]:visited{color:var(--blue)}
@@ -122,8 +128,6 @@ code {
     grid-gap: 2rem;
 }
 .postlist-item {
-  display: grid;
-  align-items: baseline;
   line-height: 1.8;
   padding: 1rem clamp(0.5rem,5%,1rem);
   background-color: var(--bright);
@@ -137,6 +141,8 @@ code {
 }
 .postlist-date {
   word-spacing: -0.5px;
+  display: grid;
+  font-size: 90%;
 }
 .postlist-link {
   text-underline-position: from-font;
