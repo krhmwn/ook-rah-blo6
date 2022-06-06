@@ -229,8 +229,7 @@ align-self:center
 
 .nextprev {
 list-style:none;
-display:flex;
-justify-content:space-between;
+display:inline-block;
 padding:0
 }
 
