@@ -207,7 +207,7 @@ font-weight:600
 }
 
 .tmpl-post {
-width:min(73ch,100vw - 2rem);  
+width:min(70ch,100vw - 2rem);  
 }
 
 .post-tag {
