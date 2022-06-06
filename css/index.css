@@ -71,7 +71,7 @@ text-decoration:underline
 }
 
 main {
-width:min(75ch,100vw - 2rem);
+width:min(80ch,100vw - 2rem);
 margin:1rem auto 5rem;
 padding:1rem
 }
@@ -201,9 +201,13 @@ display:block
 font-weight:700
 }
 
-.tmpl-home .postlist-link {
+.postlist-link {
 font-size:1.175em;
 font-weight:600
+}
+
+.tmpl-post {
+width:min(73ch,100vw - 2rem);  
 }
 
 .post-tag {
