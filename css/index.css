@@ -147,7 +147,6 @@ margin:1rem 0;
 
 .nav-item {
 display:inline-block;
-margin-right:1em
 }
 
 .nav-item a[href]:not(:hover) {
@@ -233,17 +232,3 @@ display:inline-block;
 padding:0
 }
 
-.direct-link {
-font-family:sans-serif;
-text-decoration:none;
-font-style:normal;
-margin-left:.1em
-}
-
-a[href].direct-link,a[href].direct-link:visited {
-color:transparent
-}
-
-a[href].direct-link:focus,a[href].direct-link:focus:visited,:hover > a[href].direct-link,:hover > a[href].direct-link:visited {
-color:#aaa
-}
