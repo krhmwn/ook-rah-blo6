@@ -47,7 +47,7 @@ a[href]:visited{color:var(--blue)}
 a[href]:hover{text-decoration:underline}
 
 main {
-  width: min(80ch,100vw - 2rem);margin:1rem auto 5rem;padding: 1rem;
+  width: min(75ch,100vw - 2rem);margin:1rem auto 5rem;padding: 1rem;
 }
 main :first-child {
   margin-top: 0;
