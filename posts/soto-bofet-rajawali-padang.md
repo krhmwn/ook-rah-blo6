@@ -3,8 +3,6 @@ title: Soto Bofet Rajawali Padang
 description: Sarapan di Bofet Rajawali Padang atas rekomendasi dari tim cabang Padang.
 date: 2019-12-27
 tags:
-  - wisata kuliner
-  - makan enak
 layout: layouts/post.njk
 ---
 
