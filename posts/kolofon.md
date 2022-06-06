@@ -3,7 +3,6 @@ title: Kolofon
 description: Kolofon, bukan Klepon (Jajanan Pasar).
 date: 2015-12-13
 tags:
-  - blog
 layout: layouts/post.njk
 ---
 Kolofon, merupakan kata serapan dari bahasa Inggris yaitu *Colophon* yang pengertiannya bisa dilihat di [Wikipedia](https://id.wikipedia.org/wiki/Kolofon).
