@@ -139,10 +139,10 @@ text-decoration:none
 }
 
 .nav {
-padding:0;
+padding:0 1rem;
 list-style:none;
-float:left;
-margin-left:1em
+float:right;
+margin:1rem 0;
 }
 
 .nav-item {
