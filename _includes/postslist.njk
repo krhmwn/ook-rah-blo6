@@ -5,6 +5,7 @@
    {% for tag in post.data.tags | filterTagList %}
    {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
    <p class="post-tag">{{ tag }}</p>
+   {% endfor %}
     <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
     <p>{{ post.data.description }}</p>
   </li>
