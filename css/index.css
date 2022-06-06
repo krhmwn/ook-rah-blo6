@@ -24,17 +24,23 @@ body {
   background-color: var(--light);
   font-size: 1.105rem;
   line-height:1.75;
+}
+
+p {
   text-align: justify;
 }
+
 p:last-child {
   margin-bottom: 0;
 }
+
+img{max-width:100%;border:.0625rem solid var(--gray);padding:1rem 0}
+
 h1,h2,h3,h4{font-weight:600}
 h4{font-size:1.125em}
 h3{font-size:1.25em}
 h2{font-size:1.35em}
 h1{font-size:1.75em}
-
 
 a[href]{color:var(--blue);text-decoration:none}
 a[href]:visited{color:var(--blue)}
@@ -166,7 +172,7 @@ code {
 
 
 /* Tags */
-.post-tag{color:var(--gray);display:inline;padding:0 0.8rem;text-transform: uppercase;font-size: 95%;}
+.post-tag{color:var(--gray);display:inline;padding:0 0.8rem;text-transform: uppercase;font-size: 95%;text-align: left;}
 .post-tag:before{content:"#"}
 .postlist-item > .post-tag {
   align-self: center;
