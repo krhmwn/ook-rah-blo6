@@ -139,6 +139,7 @@ padding:0 1rem;
 list-style:none;
 float:right;
 margin:1rem 0;
+top:5%;
 }
 
 .nav-item {
@@ -228,3 +229,6 @@ display:inline-block;
 padding:0
 }
 
+footer {
+border-top:.063rem solid var(--lightgray)
+}
