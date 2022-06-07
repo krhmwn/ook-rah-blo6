@@ -1,4 +1,5 @@
 :root {
+--darkgray:#7F8487;
 --lightgray:#EEE;
 --gray:#AAA492;
 --pink:rgba(240,4,127,1);
@@ -176,7 +177,7 @@ border-bottom:.125rem solid var(--lightgray)
 }
 
 .postlist-date,.postlist-item:before {
-color:var(--gray)
+color:var(--darkgray)
 }
 
 .postlist-date {
@@ -206,7 +207,7 @@ width:min(70ch,100vw - 2rem);
 }
 
 .post-tag {
-color:var(--gray);
+color:var(--darkgray);
 display:inline;
 padding:0 .8rem;
 text-transform:uppercase;
