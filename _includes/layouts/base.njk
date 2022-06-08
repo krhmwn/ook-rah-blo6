@@ -15,9 +15,9 @@
   </head>
   <body>
     <header>
-      <h1 class="home"><a href="{{ '/' | url }}" alt="Beranda">{{ metadata.logo }}</a></h1>
+      <h1 class="home"><a href="{{ '/' | url }}" title="Beranda">{{ metadata.logo }}</a></h1>
       <ul class="nav">
-        <li class="nav-item"><a href="{{ '/feed/feed.xml' | url }}" alt="Umpan Web">RSS</a></li>
+        <li class="nav-item"><a href="{{ '/feed/feed.xml' | url }}" title="Umpan Web">RSS</a></li>
       </ul>
     </header>
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
@@ -25,7 +25,7 @@
     </main>
     <footer>
       <ul>
-        <li><a href="{{ '/' | url }}" alt="Beranda">{{ metadata.logo }}</a></li>
+        <li><a href="{{ '/' | url }}" title="Beranda">{{ metadata.logo }}</a></li>
       </ul>
     </footer>
   </body>
