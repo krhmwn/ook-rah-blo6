@@ -226,4 +226,10 @@ padding:0
 
 footer {
 border-top:.063rem solid var(--lightgray);
+font-size: 90%;
+margin: 0 auto;
+}
+
+footer li {
+list-style: none;
 }
