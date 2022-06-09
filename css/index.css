@@ -248,3 +248,14 @@ content: '.';
 padding: 0 0.5em;
 opacity: .75;
 }
+
+@media all and (max-width:37rem) {
+
+footer li {
+display: block
+}
+
+footer li:before {
+content:''
+}
+}
