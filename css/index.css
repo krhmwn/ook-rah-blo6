@@ -233,7 +233,10 @@ color:var(--darkgray)
 
 footer ul {
 list-style: none;
-display: inline
+}
+
+footer li {
+display: inline;
 }
 
 footer li:first-child:before {
