@@ -240,22 +240,21 @@ display: inline;
 }
 
 footer li:first-child:before {
-content: '';
+content: '©';
+padding: 0 0.5em 0 0;
+opacity: .75;
 }
 
 footer li:before {
-content: '.';
+content: '-';
 padding: 0 0.5em;
 opacity: .75;
 }
 
-@media all and (max-width:30ch) {
+@media all and (min-width:30ch) {
 
 footer li {
 display: block
 }
 
-footer li:before {
-content:''
-}
 }
