@@ -241,14 +241,12 @@ display: inline;
 
 footer li:first-child:before {
 content: '©';
-padding: 0 0.5em;
-opacity: .85;
+padding: 0 0.5em 0 0;
 }
 
 footer li:before {
 content: '-';
 padding: 0 0.5em;
-opacity: .85;
 }
 
 @media only screen and (max-width: 37em) {
