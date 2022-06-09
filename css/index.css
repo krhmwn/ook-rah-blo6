@@ -249,7 +249,7 @@ padding: 0 0.5em;
 opacity: .75;
 }
 
-@media all and (max-width:37rem) {
+@media all and (max-width:30ch) {
 
 footer li {
 display: block
