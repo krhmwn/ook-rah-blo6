@@ -228,9 +228,20 @@ footer {
 border-top:.063rem solid var(--lightgray);
 font-size: 90%;
 margin: 0 auto;
+color:var(--darkgray)
 }
 
-footer li {
+footer ul {
 list-style: none;
 display: inline
+}
+
+footer li:first-child:before {
+content: '';
+}
+
+footer li:before {
+content: '.';
+padding: 0 0.5em;
+opacity: .75;
 }
