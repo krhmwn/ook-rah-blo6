@@ -2,7 +2,6 @@
 --darkgray:#7F8487;
 --lightgray:#EEE;
 --gray:#AAA492;
---pink:rgba(240,4,127,1);
 --navy:#17050F;
 --blue:#1C6DD0;
 --dark:#24292f;
@@ -246,7 +245,7 @@ padding: 0 0.5em 0 0;
 }
 
 footer li:before {
-content: '-';
+content: '+';
 padding: 0 0.5em;
 }
 
