@@ -7,3 +7,4 @@ eleventyNavigation:
 ---
 <h2 class="tittle">Ook Rahmawan</h2>
 {% set postslist = collections.posts | head(-2) %}{% include "postslist.njk" %}
+{% set postslist = collections.posts | head(2) %}{% include "postslistlite.njk" %}
