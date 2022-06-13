@@ -1,24 +1,9 @@
 ---
-eleventyComputed:
-  title: "{% if pagination.pageNumber > 0 %}Page {{ pagination.pageNumber + 1 }}{% else %}Homepage{% endif %}"
 layout: layouts/home.njk
-permalink: /{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}
-pagination:
-  data: collections.post
-  size: 4
-  alias: posts
-  reverse: true
 title: Blog
 eleventyNavigation:
   key: Blog
   order: 1
 ---
 <h2 class="tittle">Ook Rahmawan</h2>
-{%- if pagination.pageNumber != 0 %} - Page {{ pagination.pageNumber + 1 }}{% endif %}
-{% include "postslist.njk" %}
-       {% if pagination.previous %}
-        <a href="{{ pagination.href.previous | url }}" class="pagination__prev">&larr; Prev Page</a>
-      {% endif %}
-      {% if pagination.next %}
-        <a href="{{ pagination.href.next | url }}" class="pagination__next">Next Page &rarr;</a>
-      {% endif %}
+{% set postslist = collections.posts | head(-900) %}{% set postslistCounter = collections.posts | length %}{% include "postslist.njk" %}
