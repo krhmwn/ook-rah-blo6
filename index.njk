@@ -6,4 +6,10 @@ eleventyNavigation:
   order: 1
 ---
 <h2 class="tittle">Ook Rahmawan</h2>
-{% set postslist = collections.posts | head(-900) %}{% set postslistCounter = collections.posts | length %}{% include "postslist.njk" %}
+  {%- for item in collections.posts  -%}
+  {% if loop.index < 5 %}
+  {% include "postslist.njk" %}
+  {% else %}
+  {% include "postslistlite.njk" %}
+  {% endif %}
+  {%- endfor -%}
