@@ -14,8 +14,8 @@ eleventyNavigation:
   order: 1
 ---
 <h2 class="tittle">Ook Rahmawan</h2>
-{% set postslist = collections.posts | head(999) %}{% include "postslist.njk" %}
-
+{%- if pagination.pageNumber != 0 %} - Page {{ pagination.pageNumber + 1 }}{% endif %}
+{% include "postslist.njk" %}
        {% if pagination.previous %}
         <a href="{{ pagination.href.previous | url }}" class="pagination__prev">&larr; Prev Page</a>
       {% endif %}
