@@ -245,7 +245,7 @@ padding: 0 0.5em 0 0;
 }
 
 footer li:before {
-content: 'U+02709';
+content: '&#9993;';
 padding: 0 0.5em;
 }
 
