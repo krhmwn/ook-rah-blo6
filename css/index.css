@@ -105,7 +105,7 @@ td,th
 
 tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th
 {
-	background-color:var(--light);
+	background-color:var(--bright);
 }
 
 pre {
