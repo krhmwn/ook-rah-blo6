@@ -133,13 +133,12 @@ blockquote {
 
 blockquote p:first-of-type:before {
 	content: '\201c';
-	position: absolute;
-	left: -.5em;
+	padding-right: 0.25em;
 }
 
 blockquote p:last-of-type:after {
 	content: '\201d';
-	position: absolute;
+padding-left: 0.25em;
 }
 
 .home {
