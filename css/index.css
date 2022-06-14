@@ -29,7 +29,7 @@ margin-bottom:0
 
 img {
 max-width:100%;
-heigth:100%;
+heigth:auto;
 border:.0625rem solid var(--gray);
 margin:1.5rem 0
 }
@@ -127,7 +127,6 @@ word-break:break-all
 blockquote {
 	text-rendering: optimizeLegibility;
 	font-smoothing: antialiased;
-	-webkit-font-smoothing: antialiased;
 	-moz-osx-fon-smoothing: grayscale;
 }
 
