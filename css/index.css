@@ -1,7 +1,6 @@
 :root {
 --darkgray:#7F8487;
 --lightgray:#EEE;
---gray:#AAA492;
 --navy:#17050F;
 --blue:#1C6DD0;
 --dark:#24292f;
@@ -104,13 +103,9 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
 background-color:var(--bright)
 }
 
-pre[class*="language-"] {
-padding: 1.5em;
-font-size:1.125rem;
-}
 
 pre {
-font-size:1.125rem;
+font-size:1.063rem;
 line-height:1.375;
 direction:ltr;
 text-align:left;
