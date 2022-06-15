@@ -30,7 +30,7 @@ margin-bottom:0
 img {
 max-width:100%;
 height:auto;
-border:.0625rem solid var(--gray);
+border:.0625rem solid var(--lightgray);
 margin:1.5rem 0
 }
 
@@ -87,29 +87,30 @@ display:table;
 clear:both
 }
 
-table,td,th
-{
-	border:.063rem solid var(--lightgray)
+table,td,th {
+border:.063rem solid var(--lightgray)
 }
 
-table
-{
-	width:100%;
-	border-collapse:collapse
+table {
+width:100%;
+border-collapse:collapse
 }
 
-td,th
-{
-	padding:.25rem .5rem
+td,th {
+padding:.25rem .5rem
 }
 
-tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th
-{
-	background-color:var(--bright);
+tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
+background-color:var(--bright)
+}
+
+pre[class*="language-"] {
+padding: 1.5em;
+font-size:1.125rem;
 }
 
 pre {
-font-size:14px;
+font-size:1.125rem;
 line-height:1.375;
 direction:ltr;
 text-align:left;
@@ -125,30 +126,30 @@ tab-size:2;
 hyphens:none;
 padding:1em;
 margin:.5em 0;
-background-color:var(--bright)
+background-color:var(--bright);
+padding:1.5em;
+margin:.5em 0;
+overflow:auto
 }
-pre {
-	padding: 1.5em 0;
-	margin: .5em 0;
-	overflow: auto;
-}
+
 code {
 word-break:break-all
 }
 
 blockquote {
-	text-rendering: optimizeLegibility;
-	-moz-osx-fon-smoothing: grayscale;
+margin-right:0;
+text-rendering:optimizeLegibility;
+-moz-osx-fon-smoothing:grayscale
 }
 
 blockquote p:first-of-type:before {
-	content: '\201c';
-	padding-right: 0.25em;
+content:'\201c';
+padding-right:.25em
 }
 
 blockquote p:last-of-type:after {
-	content: '\201d';
-padding-left: 0.25em;
+content:'\201d';
+padding-left:.25em
 }
 
 .home {
