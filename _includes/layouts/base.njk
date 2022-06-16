@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title or metadata.title }} - {{ metadata.title }}</title>
-    <meta name="description" content="{{ description or metadata.description }}">
+    <title>{{ title or renderData.title or metadata.title }}  - {{ metadata.title }}</title>
+    <meta name="description" content="{{ description or renderData.description or metadata.description }}" />
+    <link rel="canonical" href={{ page.url }}/>
+    <meta name="robots" content="index, follow" />
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-diff.css' | url }}">
@@ -13,6 +15,13 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{ "/img/logo/favicon.ico" | url }}" />
     <link rel="apple-touch-icon" href="{{ "/img/logo/apple-touch-icon.png" | url }}" />
     <meta name="theme-color" content="#1C6DD0">
+    
+    <meta property="og:title" content={{ title or renderData.title or metadata.title }}  - {{ metadata.title }} />
+    <meta property="og:url" content={{ page.url }} />
+    <meta property="og:description" content={{ description or renderData.description or metadata.description }} />
+    <meta property="og:image" content="/img/logo/android-chrome-192x192.png" />
+    <meta property="og:type" content="article" />
+    
   </head>
   <body>
     <header>
