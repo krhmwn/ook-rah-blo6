@@ -103,7 +103,6 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
 background-color:var(--bright)
 }
 
-
 pre {
 font-size:1.063rem;
 line-height:1.375;
@@ -199,14 +198,11 @@ border-right:.063rem solid var(--lightgray);
 border-bottom:.125rem solid var(--lightgray)
 }
 
-.postlist-date,.postlist-item:before {
-color:var(--darkgray)
-}
 
 .postlist-date {
 word-spacing:-.5px;
 display:inline;
-font-size:95%
+font-size:90%
 }
 
 .postlist-link {
