@@ -1,22 +1,22 @@
 {
   "title": "Ook Rahmawan",
-  "url": "https://ookrahmawan.xyz",
+  "url": "https://ook.rahmawan.xyz",
   "language": "id",
-  "logo": "ookrahmawan.xyz",
+  "logo": "ook.rahmawan.xyz",
   "description": "Teknologi, Web, Blog, Desain, Wisata kuliner, Makan enak, Jalan-jalan, Pengalaman",
   "feed": {
     "subtitle": "Teknologi, Web, Blog, Desain, Wisata kuliner, Makan enak, Jalan-jalan, Pengalaman",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://ookrahmawan.xyz/"
+    "id": "https://ook.rahmawan.xyz/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://ookrahmawan.xyz/feed/feed.json"
+    "url": "https://ook.rahmawan.xyz/feed/feed.json"
   },
   "author": {
     "name": "Ook Rahmawan",
-    "email": "ooksurel@gmail.com",
-    "url": "https://ookrahmawan.xyz/"
+    "email": "ook@rahmawan.xyz",
+    "url": "https://ook.rahmawan.xyz/"
   }
 }
