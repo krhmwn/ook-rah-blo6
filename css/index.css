@@ -202,6 +202,11 @@ border-right:.063rem solid var(--lightgray);
 border-bottom:.125rem solid var(--lightgray)
 }
 
+.postlist-date:before {
+content:'&#822;';
+padding:0 1em
+}
+
 .postlist-date {
 word-spacing:-.5px;
 display:inline;
