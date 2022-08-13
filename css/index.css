@@ -203,7 +203,7 @@ border-bottom:.125rem solid var(--lightgray)
 }
 
 .postlist-date:before {
-content:'\0332';
+content:'\0320';
 padding:0 1em 0 0;
 }
 
