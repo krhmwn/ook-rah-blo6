@@ -22,6 +22,10 @@ font-size:1.125rem;
 line-height:1.75
 }
 
+p {
+margin:0
+}
+
 p:last-child {
 margin-bottom:0
 }
@@ -198,7 +202,6 @@ border-right:.063rem solid var(--lightgray);
 border-bottom:.125rem solid var(--lightgray)
 }
 
-
 .postlist-date {
 word-spacing:-.5px;
 display:inline;
@@ -210,7 +213,8 @@ text-underline-position:from-font;
 text-underline-offset:0;
 text-decoration-thickness:1px;
 display:block;
-font-size:1.175em
+font-size:1.175em;
+font-weight:600
 }
 
 .tmpl-post {
