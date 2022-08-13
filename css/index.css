@@ -203,8 +203,8 @@ border-bottom:.125rem solid var(--lightgray)
 }
 
 .postlist-date:before {
-content:'U+00336';
-padding:0 1em 0
+content:'̶';
+padding:0 1em 0 0
 }
 
 .postlist-date {
