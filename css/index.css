@@ -83,7 +83,7 @@ header {
     border-bottom: 0.063rem solid var(--lightgray);
     z-index: 3;
     width: 100%;
-    background: #fff;
+    background: var(--light);
     top: 0;
     padding: 2rem 0;
 }
