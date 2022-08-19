@@ -1,3 +1,4 @@
+
 :root {
 --darkgray:#7F8487;
 --lightgray:#EEE;
@@ -9,7 +10,8 @@
 }
 
 * {
-box-sizing:border-box
+-webkit-box-sizing:border-box;
+        box-sizing:border-box
 }
 
 html,body {
@@ -119,7 +121,6 @@ word-break:normal;
 -o-tab-size:2;
 tab-size:2;
 -webkit-hyphens:none;
--moz-hyphens:none;
 -ms-hyphens:none;
 hyphens:none;
 padding:1em;
@@ -189,6 +190,7 @@ padding:3rem 0 4rem
 .postlist {
 list-style:none;
 padding:0;
+display:-ms-grid;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(25ch,1fr));
 grid-gap:2rem
@@ -199,7 +201,8 @@ line-height:1.8;
 padding:1rem clamp(0.5rem,5%,1rem);
 background-color:var(--bright);
 border-right:.063rem solid var(--lightgray);
-border-bottom:.125rem solid var(--lightgray)
+border-bottom:.125rem solid var(--lightgray);
+border-radius:.25rem
 }
 
 .postlist-date:before {
@@ -239,7 +242,9 @@ content:"#"
 }
 
 .postlist-item > .post-tag {
-align-self:center
+-ms-flex-item-align:center;
+    -ms-grid-row-align:center;
+    align-self:center
 }
 
 .nextprev {
