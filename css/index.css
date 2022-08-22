@@ -6,7 +6,8 @@
 --blue:#1C6DD0;
 --dark:#24292f;
 --light:#FFF;
---bright:#F5F6FA
+--bright:#F5F6FA;
+--transparent:rgba(255,255,255,.9);
 }
 
 * {
@@ -81,11 +82,11 @@ margin-top:0
 header {
     position: fixed;
     border-bottom: 0.063rem solid var(--lightgray);
-    z-index: 3;
+    z-index: 5;
     width: 100%;
-    background: var(--light);
+    background: var(--transparent);
     top: 0;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
 }
 
 header:after {
