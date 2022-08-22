@@ -31,7 +31,7 @@ blockquote p:last-of-type:after{content:'\201d';padding-left:.25em}
 .nav-item a[href]:not(:hover){text-decoration:none}
 .nav-item-active{font-weight:700;text-decoration:underline}
 .tittle{text-align:center;padding:3rem 0 4rem}
-.postlist{list-style:none;padding:0;display:-ms-grid;display:grid;grid-template-columns:repeat(auto-fit,minmax(25ch,1fr));grid-gap:2rem}
+.postlist{list-style:none;padding:0;display:-ms-grid;display:grid;grid-template-columns:repeat(auto-fit,minmax(25ch,1fr));grid-gap:3rem}
 .postlist-item{line-height:1.8;padding:1rem clamp(0.5rem,5%,1rem);background-color:var(--bright);border-right:.063rem solid var(--lightgray);border-bottom:.125rem solid var(--lightgray);border-radius:.25rem}
 .postlist-date:before{content:'\2012';padding:0 .5em 0 0}
 .postlist-date{word-spacing:-.5px;display:inline}
