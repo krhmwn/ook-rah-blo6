@@ -29,11 +29,11 @@
 <body>
 <header>
 <h1 class="home"><a href="{{ '/' | url }}" title="Beranda">{{ metadata.logo }}</a></h1>
+<nav><ul><li><a href="mailto:mail@ook.web.id" title="Kontak">Kontak</a></li><li><a href="{{ '/feed/feed.xml' | url }}" title="Umpan Web">RSS</a></li></ul></nav>
 </header>
 <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>{{ content | safe }}</main>
 <footer>
-<ul><li><a href="{{ '/' | url }}" title="Beranda">{{ metadata.title }}</a></li><li><a href="{{ '/feed/feed.xml' | url }}" title="Umpan Web">RSS</a></li><li><a href="mailto:mail@ook.web.id" title="Kontak">Kontak</a></li>
-</ul>
+<ul><li><a href="{{ '/' | url }}" title="Beranda">{{ metadata.title }}</a></li></ul>
 </footer>
 </body>
 </html>
