@@ -26,10 +26,13 @@ blockquote p:first-of-type:before{content:'\201c';padding-right:.25em}
 blockquote p:last-of-type:after{content:'\201d';padding-left:.25em}
 .home{padding:0 1rem;float:left;margin:0 1rem;font-size:1.175em}
 .home :link:not(:hover){text-decoration:none}
-.nav{padding:0 2rem 0 0;list-style:none;float:right;margin:1.25rem 0 1rem}
-.nav-item{display:inline-block}
-.nav-item a[href]:not(:hover){text-decoration:none}
-.nav-item-active{font-weight:700;text-decoration:underline}
+
+nav{margin:0 auto;color:var(--darkgray);text-align:center}
+nav ul{list-style:none;margin:2rem auto}
+nav li{display:inline}
+nav li:first-child:before{content:'';padding:0 .5em 0 0}
+nav li:before{content:'.';padding:0 .5em}
+
 .tittle{text-align:center;padding:3rem 0 4rem}
 .postlist{list-style:none;padding:0;display:-ms-grid;display:grid;grid-template-columns:repeat(auto-fit,minmax(25ch,1fr));grid-gap:3rem}
 .postlist-item{line-height:1.8;padding:1rem clamp(0.5rem,5%,1rem);background-color:var(--bright);border-right:.063rem solid var(--lightgray);border-bottom:.125rem solid var(--lightgray);border-radius:.25rem}
