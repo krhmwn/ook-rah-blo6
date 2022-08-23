@@ -1,0 +1,29 @@
+---
+permalink: /manifest.json
+eleventyExcludeFromCollections: true
+---
+{
+  "name": "Blog Ook Rahmawan",
+  "short-name": "Ook Rahmawan",
+  "start_url": "https://ook.web.id/l",
+  "scope": ".", 
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#1C6DD0",
+  "description": "Teknologi, Web, Blog, Desain, Wisata kuliner, Makan enak, Jalan-jalan, Pengalaman",
+  "dir": "ltr",
+  "lang": "id",
+  "orientation": "portrait-primary",
+  "icons": [
+     {
+       "src": "/img/logo/android-chrome-192x192.png",
+       "type": "image/png",
+       "size": "192x192"
+     },
+     {
+       "src": "/img/logo/android-chrome-512x512.png",
+       "type": "image/png",
+       "size": "512x512"
+     }
+   ]
+}
