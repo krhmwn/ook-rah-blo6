@@ -1,7 +1,3 @@
----
-permalink: /manifest.json
-eleventyExcludeFromCollections: true
----
 {
   "name": "Blog Ook Rahmawan",
   "short-name": "Ook Rahmawan",
