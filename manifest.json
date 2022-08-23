@@ -1,7 +1,7 @@
 {
   "name": "Blog Ook Rahmawan",
   "short-name": "Ook Rahmawan",
-  "start_url": "https://ook.web.id/l",
+  "start_url": "https://ook.web.id",
   "scope": ".", 
   "display": "standalone",
   "background_color": "#fff",
