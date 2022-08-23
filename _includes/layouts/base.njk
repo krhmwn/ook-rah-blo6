@@ -33,7 +33,7 @@
 </header>
 <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>{{ content | safe }}</main>
 <footer>
-<ul><li><a href="{{ '/' | url }}" title="Beranda">{{ metadata.title }}</a></li></ul>
+<ul><li>{{ metadata.title }}</li></ul>
 </footer>
 </body>
 </html>
