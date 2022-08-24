@@ -34,7 +34,6 @@ nav li:before{content:'.';padding:0 .5em}
 .tittle{text-align:center;padding:3rem 0 4rem}
 .postlist{list-style:none;padding:0;display:-ms-grid;display:grid;grid-template-columns:repeat(auto-fit,minmax(25ch,1fr));grid-gap:3rem}
 .postlist-item{line-height:1.8;padding:1rem clamp(0.5rem,5%,1rem);background-color:var(--bright);border-right:.063rem solid var(--lightgray);border-bottom:.125rem solid var(--lightgray);border-radius:.25rem}
-.postlist-date:before{content:'\2012';padding:0 .5em 0 0}
 .postlist-date{word-spacing:-.5px;display:inline}
 .postlist-link{text-underline-position:from-font;text-underline-offset:0;text-decoration-thickness:1px;display:block;font-size:1.175em;font-weight:600}
 .tmpl-post{width:min(70ch,100vw - 2rem)}
