@@ -8,6 +8,7 @@ eleventyNavigation:
 ---
 {% set maxPosts = collections.posts.length | min(1000) %}
 <h1 class="tittle">Arsip Blog {% if maxPosts == 1 %}{% else %}({{ maxPosts }}){% endif %}</h1>
+{% set postslist = collections.posts %}
 <table>
   <thead>
     <tr>
