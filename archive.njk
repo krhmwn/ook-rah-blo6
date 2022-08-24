@@ -7,21 +7,9 @@ eleventyNavigation:
   order: 2
 ---
 {% set maxPosts = collections.posts.length | min(1000) %}
-<h1 class="tittle">Arsip Blog {% if maxPosts == 1 %}{% else %}({{ maxPosts }}){% endif %}</h1>
-{% set postslist = collections.posts %}
+<h1 class="tittle">Arsip Blog {% if maxPosts == 1 %}{% else %}({{ maxPosts }}){% endif %}</h1>{% set postslist = collections.posts %}
 <table>
-  <thead>
-    <tr>
-      <th>Daftar</th>
-      <th>Tanggal</th>
-    </tr>
-  </thead>
-  <tbody>
-{% for post in postslist | reverse %}
-  <tr>
-    <td><a href="{{ post.url | url }}" title="{{ post.data.title }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></td>
-    <td><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></td>
-  </tr>
-{%- endfor %}
-  </tbody>
+<thead><tr><th>Daftar</th><th>Tanggal</th></tr></thead>
+<tbody>{% for post in postslist | reverse %}<tr><td><a href="{{ post.url | url }}" title="{{ post.data.title }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></td><td><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></td></tr>
+{%- endfor %}</tbody>
 </table>
