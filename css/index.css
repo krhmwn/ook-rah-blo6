@@ -13,7 +13,7 @@ a[href]:visited{color:var(--blue)}
 a[href]:hover{text-decoration:underline}
 main{width:min(80ch,100vw - 2rem);margin:8rem auto 5rem;padding:1rem}
 main :first-child{margin-top:0}
-header{position:fixed;border-bottom:.063rem solid var(--lightgray);z-index:5;width:100%;background:var(--transparent);top:0;padding:1.25rem 0}
+header{position:fixed;border-bottom:.063rem solid var(--lightgray);z-index:5;width:100%;background:var(--transparent);top:0;padding:1.5rem 0}
 header:after{content:"";display:table;clear:both}
 table,td,th{border:.063rem solid var(--lightgray)}
 table{width:100%;border-collapse:collapse}
@@ -42,7 +42,7 @@ nav li:before{content:'.';padding:0 .5em}
 .postlist-item > .post-tag{-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center}
 .nextprev{list-style:none;display:inline-block;padding:0}
 footer{border-top:.063rem solid var(--lightgray);margin:0 auto;color:var(--darkgray);text-align:center}
-footer ul{list-style:none;margin:2rem auto}
+footer ul{list-style:none;margin:1.5rem auto}
 footer li{display:inline}
 footer li:first-child:before{content:'©';padding:0 .5em 0 0}
 footer li:before{content:'.';padding:0 .5em}
