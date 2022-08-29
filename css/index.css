@@ -13,7 +13,7 @@ a[href]:visited{color:var(--blue)}
 a[href]:hover{text-decoration:underline}
 main{width:min(80ch,100vw - 2rem);margin:8rem auto 5rem;padding:1rem}
 main :first-child{margin-top:0}
-header{position:fixed;border-bottom:.063rem solid var(--lightgray);z-index:5;width:100%;background:var(--transparent);top:0;padding:1.5rem 0}
+header{position:fixed;border-bottom:.063rem solid var(--lightgray);z-index:5;width:100%;background:var(--transparent);top:0;padding:1.25rem 0}
 header:after{content:"";display:table;clear:both}
 table,td,th{border:.063rem solid var(--lightgray)}
 table{width:100%;border-collapse:collapse}
@@ -47,6 +47,7 @@ footer li{display:inline}
 footer li:first-child:before{content:'©';padding:0 .5em 0 0}
 footer li:before{content:'.';padding:0 .5em}
 @media only screen and (max-width: 37em) {
+header{padding:1rem 0}
 .home, nav {float: none;}
 nav ul{margin: 0;padding: 0 0 0 2rem;}
 nav li:first-child:before{padding:0}
