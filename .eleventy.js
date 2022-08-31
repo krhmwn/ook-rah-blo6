@@ -5,7 +5,7 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-const tinyHTML = require('@sardine/eleventy-plugin-tinyhtml');
+const tinyHTML = require("@sardine/eleventy-plugin-tinyhtml");
 
 
 module.exports = function(eleventyConfig) {
