@@ -70,7 +70,7 @@ text-decoration:underline
 
 main {
 width:min(100ch,100vw - 2rem);
-margin:8rem auto 5rem;
+margin:8rem auto 4rem;
 padding:1rem
 }
 
@@ -298,7 +298,11 @@ padding:0 0 0 2rem
 nav li:first-child:before {
 padding:0
 }
-
+  
+.nextprev {
+  flex-direction: column-reverse;
+  }
+  
 footer {
 text-align:left
 }
