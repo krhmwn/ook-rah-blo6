@@ -70,7 +70,7 @@ text-decoration:underline
 
 main {
 width:min(100ch,100vw - 2rem);
-margin:6rem auto 4rem;
+margin:5rem auto 3rem;
 padding:1rem
 }
 
@@ -155,9 +155,8 @@ padding-left:.25em
 }
 
 .home {
-padding:0 1rem;
 float:left;
-margin:0 1rem;
+margin:0 0 0 2rem;
 font-size:1.175em
 }
 
@@ -251,7 +250,7 @@ align-self:center
 .nextprev {
     list-style: none;
     display: flex;
-    padding: 2rem 0 0;
+    padding: 1rem 0 0;
     justify-content: space-between;
 }
 
