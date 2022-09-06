@@ -198,12 +198,12 @@ padding:0;
 display:-ms-grid;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(25ch,1fr));
-grid-gap:3rem
+grid-gap:2rem
 }
 
 .postlist-item {
 line-height:1.8;
-padding:1rem clamp(.5rem,5%,1rem);
+padding:1rem;
 background-color:var(--bright);
 border-right:.063rem solid var(--lightgray);
 border-bottom:.125rem solid var(--lightgray);
@@ -250,7 +250,7 @@ align-self:center
 .nextprev {
     list-style: none;
     display: flex;
-    padding: 1rem 0 0;
+    padding: 2rem 0 0;
     justify-content: space-between;
 }
 
