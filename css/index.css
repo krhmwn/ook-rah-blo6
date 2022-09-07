@@ -252,9 +252,8 @@ list-style: none;
 display: flex;
 padding: 2rem 0 0;
 justify-content: space-between;
+gap: 1rem
 }
-
-
 
 footer {
 border-top:.063rem solid var(--lightgray);
