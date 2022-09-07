@@ -248,11 +248,16 @@ align-self:center
 }
 
 .nextprev {
-    list-style: none;
-    display: flex;
-    padding: 2rem 0 0;
-    justify-content: space-between;
+list-style: none;
+display: flex;
+padding: 2rem 0 0;
+justify-content: space-between;
 }
+
+.nextprev li:last-child {
+float:right
+}
+
 
 footer {
 border-top:.063rem solid var(--lightgray);
@@ -297,10 +302,6 @@ padding:0 0 0 2rem
 nav li:first-child:before {
 padding:0
 }
-  
-.nextprev {
-  flex-direction: column-reverse;
-  }
   
 footer {
 text-align:left
