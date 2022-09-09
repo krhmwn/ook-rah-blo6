@@ -21,6 +21,10 @@ font-size:1.125rem;
 line-height:1.75
 }
 
+p {
+margin:1rem 0 0
+}
+
 p:last-child {
 margin-bottom:0
 }
@@ -155,10 +159,6 @@ padding-left:.25em
 float:left;
 margin:0 0 0 2rem;
 font-size:1.175em
-}
-
-.home :link:not(:hover) {
-text-decoration:none
 }
 
 nav {
