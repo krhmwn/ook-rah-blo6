@@ -1,10 +1,8 @@
 :root {
---darkgray:#7F8487;
 --lightgray:#EEE;
 --blue:#1C6DD0;
 --dark:#24292f;
 --light:#FFF;
---bright:#F5F6FA;
 --transparent:rgba(255,255,255,.95)
 }
 
@@ -128,7 +126,6 @@ tab-size:2;
 hyphens:none;
 padding:1em;
 margin:.5em 0;
-background-color:var(--bright);
 padding:1.5em;
 margin:.5em 0;
 overflow:auto
@@ -205,8 +202,7 @@ grid-gap:2rem
 line-height:1.8;
 padding:1rem;
 background-color:var(--bright);
-border-right:.063rem solid var(--lightgray);
-border-bottom:.125rem solid var(--lightgray);
+border:.063rem solid var(--lightgray);
 border-radius:.25rem
 }
 
