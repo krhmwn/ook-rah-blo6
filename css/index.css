@@ -71,7 +71,7 @@ text-decoration:underline
 }
 
 main {
-width:min(100ch,100vw - 2rem);
+width:min(90ch,100vw - 2rem);
 margin:5rem auto 3rem;
 padding:1rem
 }
@@ -192,17 +192,17 @@ padding:3rem 0 4rem
 .postlist {
 list-style:none;
 padding:0;
-display:-ms-grid;
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(25ch,1fr));
-grid-gap:2rem
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .postlist-item {
 line-height:1.8;
 padding:1rem;
 border:.063rem solid var(--lightgray);
-border-radius:.25rem
+border-radius:.25rem;
+  flex: 1 1 25ch;
 }
 
 .postlist-date {
@@ -220,7 +220,7 @@ font-weight:600
 }
 
 .tmpl-post {
-width:min(100ch,100vw - 2rem)
+width:min(90ch,100vw - 2rem)
 }
 
 .post-tag {
