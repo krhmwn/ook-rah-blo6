@@ -220,7 +220,7 @@ font-weight:600
 }
 
 .tmpl-post {
-width:min(65ch,100vw - 2rem)
+width:min(100ch,100vw - 2rem)
 }
 
 .post-tag {
@@ -244,10 +244,8 @@ align-self:center
 
 .nextprev {
 list-style: none;
-display: flex;
-padding: 2rem 0 0;
-justify-content: space-between;
-gap: 1rem
+display: block;
+padding: 1rem 0 0;
 }
 
 footer {
