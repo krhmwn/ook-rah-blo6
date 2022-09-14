@@ -3,8 +3,11 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 <h2 class="tittle">{{ title }}</h2>
-<time class="postlist-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>{%- for tag in tags | filterTagList -%}{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}<p class="post-tag">{{ tag }}</p>{%- endfor %}
-{{ content | safe }}
+<ul class="postlist">
+<li class="postlist-item}">{{ content | safe }}</li>
+<li class="postlist-item}"><time class="postlist-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>{%- for tag in tags | filterTagList -%}{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}<p class="post-tag">{{ tag }}</p>{%- endfor %}
 {%- if collections.posts %}{%- set nextPost = collections.posts | getNextCollectionItem(page) %}{%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}{%- if nextPost or previousPost %}<ul class="nextprev">
 {%- if nextPost %}<li>&laquo; <a href="{{ nextPost.url | url }}" title="Selanjutnya: {{ nextPost.data.title }}">{{ nextPost.data.title }}</a></li>{% endif %}
 {%- if previousPost %}<li><a href="{{ previousPost.url | url }}" title="Sebelumnya: {{ previousPost.data.title }}">{{ previousPost.data.title }}</a> &raquo;</li>{% endif %}</ul>{%- endif %}{%- endif %}
+</li>
+</ul>
