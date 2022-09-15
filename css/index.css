@@ -32,9 +32,7 @@ margin-bottom:0
 img {
 max-width:100%;
 height:auto;
-border:.063rem solid var(--lightgray);
 margin:1.5rem 0;
-border-radius:.25rem
 }
 
 h1,h2,h3,h4 {
@@ -213,7 +211,7 @@ flex: 1 1 25ch;
   flex-basis: 20ch;
   height: fit-content;
   position: sticky;
-  top:7rem
+  top:8rem
 }
 
 .postlist-date {
