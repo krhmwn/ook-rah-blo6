@@ -156,7 +156,8 @@ padding-left:.25em
 
 .top-side{
 max-width:90ch;
-  width:auto
+  width:auto;
+  margin:0 auto
 }
 
 .home {
