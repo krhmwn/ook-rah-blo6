@@ -251,11 +251,6 @@ content:"#"
 align-self:center
 }
 
-.nextprev {
-list-style: none;
-display: block;
-padding: 1rem 0 0;
-}
 
 footer {
 border-top:.063rem solid var(--lightgray);
