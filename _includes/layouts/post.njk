@@ -5,8 +5,11 @@ templateClass: tmpl-post
 <h2 class="tittle">{{ title }}</h2>
 <ul class="postlist">
 <li class="postlist-item left-side">{{ content | safe }}</li>
-<li class="postlist-item right-side"><time class="postlist-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>{%- for tag in tags | filterTagList -%}{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}<p class="post-tag">{{ tag }}</p>{%- endfor %}
-{%- if collections.posts %}{%- set nextPost = collections.posts | getNextCollectionItem(page) %}{%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}{%- if nextPost or previousPost %}<ul class="nextprev">
+<li class="postlist-item right-side">
+<ul>
+<li><time class="postlist-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
+<li>{%- for tag in tags | filterTagList -%}{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}<p class="post-tag">{{ tag }}</p>{%- endfor %}</li>
+{%- if collections.posts %}{%- set nextPost = collections.posts | getNextCollectionItem(page) %}{%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}{%- if nextPost or previousPost %}
 {%- if nextPost %}<li>Selanjutnya: <a href="{{ nextPost.url | url }}" title="{{ nextPost.data.title }}">{{ nextPost.data.title }}</a></li>{% endif %}
 {%- if previousPost %}<li>Sebelumnya: <a href="{{ previousPost.url | url }}" title="{{ previousPost.data.title }}">{{ previousPost.data.title }}</a></li>{% endif %}</ul>{%- endif %}{%- endif %}
 </li>
