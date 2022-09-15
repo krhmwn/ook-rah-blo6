@@ -155,7 +155,7 @@ padding-left:.25em
 
 
 .top-side{
-max-width:90ch;
+max-width:min(90ch,100vw - 2rem);
   width:auto;
   margin:0 auto
 }
