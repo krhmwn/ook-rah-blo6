@@ -153,6 +153,12 @@ content:'\201d';
 padding-left:.25em
 }
 
+
+.top-side{
+max-width:90ch;
+  width:auto
+}
+
 .home {
 float:left;
 margin:0 0 0 2rem;
