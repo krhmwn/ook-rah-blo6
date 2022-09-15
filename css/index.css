@@ -214,6 +214,11 @@ flex: 1 1 25ch;
   top:8rem
 }
 
+.right-side ul {
+    list-style: none;
+    padding: 0;
+}
+
 .postlist-date {
 word-spacing:-.5px;
 display:inline
