@@ -213,6 +213,7 @@ flex: 1 1 25ch;
   flex-basis: 20ch;
   height: fit-content;
   position: sticky;
+  top:7rem
 }
 
 .postlist-date {
