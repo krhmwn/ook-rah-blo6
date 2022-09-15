@@ -192,9 +192,9 @@ padding:3rem 0 4rem
 .postlist {
 list-style:none;
 padding:0;
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
+display: flex;
+gap: 2rem;
+flex-wrap: wrap;
 }
 
 .postlist-item {
@@ -202,7 +202,17 @@ line-height:1.8;
 padding:1rem;
 border:.063rem solid var(--lightgray);
 border-radius:.25rem;
-  flex: 1 1 25ch;
+flex: 1 1 25ch;
+}
+
+.left-side {
+  flex-basis: 55ch;
+}
+
+.right-side {
+  flex-basis: 20ch;
+  height: fit-content;
+  position: sticky;
 }
 
 .postlist-date {
