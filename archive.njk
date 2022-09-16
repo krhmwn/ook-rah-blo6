@@ -13,3 +13,13 @@ eleventyNavigation:
 <tbody>{% for post in postslist | reverse %}<tr><td><a href="{{ post.url | url }}" title="{{ post.data.title }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></td><td><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></td></tr>
 {%- endfor %}</tbody>
 </table>
+
+
+{% for year, yearPosts in collections.postsByYear %}
+  <h2>{{ year }}</h2>
+  <ul>
+    {% for post in yearPosts | reverse %}
+      <li>{{ post.data.title }}</li>
+    {% endfor %}
+  </ul>
+{% endfor %}
