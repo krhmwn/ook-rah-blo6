@@ -14,6 +14,7 @@ layout: layouts/postclear.njk
 eleventyComputed:
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag | slug }}/
+eleventyExcludeFromCollections: true
 ---
 <h1>Ditandai “{{ tag }}”</h1>
 
