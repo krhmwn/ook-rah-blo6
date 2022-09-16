@@ -11,7 +11,8 @@ module.exports = function(eleventyConfig) {
   
 eleventyConfig.addCollection("postsByYear", (collection) => {
   return _.chain(collection.getAllSorted())
-    .groupBy((post) => post.date.getFullYear())
+  
+    .groupBy((posts) => posts.date.getFullYear())
     .toPairs()
     .reverse()
     .value();
