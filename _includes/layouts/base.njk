@@ -30,7 +30,7 @@
 <header>
 <div class="top-side">
 <h1 class="home"><a href="{{ '/' | url }}" title="Beranda">{{ metadata.title }}</a></h1>
-<nav><ul><li><a href="/posts" title="Arsip Blog">Arsip</a></li><li><li><a href="mailto:mail@ook.web.id" title="Kontak">Kontak</a></li><li><a href="{{ '/feed/feed.xml' | url }}" title="Umpan Web">RSS</a></li></ul></nav>
+<nav><ul><li><a href="/posts" title="Arsip Blog">Arsip</a></li><li><a href="mailto:mail@ook.web.id" title="Kontak">Kontak</a></li><li><a href="{{ '/feed/feed.xml' | url }}" title="Umpan Web">RSS</a></li></ul></nav>
 </div>
 </header>
 <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>{{ content | safe }}</main>
