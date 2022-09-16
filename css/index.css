@@ -263,7 +263,7 @@ align-self:center
 }
 
 .archive {
-  
+padding-inline-start: 1rem;
 }
 
 footer {
