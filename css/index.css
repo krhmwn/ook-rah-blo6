@@ -227,8 +227,7 @@ flex: 1 1 25ch;
 }
 
 .postlist-date {
-word-spacing:-.5px;
-display:inline
+display:block
 }
 
 .postlist-link {
@@ -263,6 +262,9 @@ content:"#"
 align-self:center
 }
 
+.archive {
+  
+}
 
 footer {
 border-top:.063rem solid var(--lightgray);
