@@ -9,9 +9,8 @@ eleventyNavigation:
 ---
 {% set maxPosts = collections.posts.length | min(1000) %}
 <h1 class="tittle">Arsip Blog {% if maxPosts == 1 %}{% else %}({{ maxPosts }}){% endif %}</h1>{% set postslist = collections.posts %}
-
-{% for year, yearPosts in collections.postsByYear %}
 <ul class="postlist">
+{% for year, yearPosts in collections.postsByYear %}
 <li class="postlist-item">
 <h3>{{ year }}</h3>
   <ul>
@@ -20,5 +19,5 @@ eleventyNavigation:
     {% endfor %}
   </ul>
   </li>
- </ul>
 {% endfor %}
+</ul>
