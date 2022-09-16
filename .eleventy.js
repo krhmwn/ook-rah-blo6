@@ -5,8 +5,18 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const _ = require("lodash");
 
 module.exports = function(eleventyConfig) {
+  
+  
+  eleventyConfig.addCollection("postsByYear", (collection) => {
+  return _.chain(collection.getAllSorted())
+    .groupBy((post) => post.date.getFullYear())
+    .toPairs()
+    .reverse()
+    .value();
+});
 
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
