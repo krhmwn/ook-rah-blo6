@@ -166,6 +166,10 @@ margin:0 0 0 1rem;
 font-size:1.175em
 }
 
+.home-lite {
+display: none
+}
+
 nav {
 color:var(--darkgray);
 float:right
@@ -298,17 +302,15 @@ padding:0.50rem 0
 }
 
 .home {
-margin-left:2rem;
-}
-  
-.home,nav {
-float:none
+display: none
 }
 
-nav ul {
-margin:0;
-padding-left:2rem
+.home-lite {
+float:left;
+margin:0 0 0 1rem;
+font-size:1.175em
 }
+
 
 nav li:first-child:before {
 padding:0
