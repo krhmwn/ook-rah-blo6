@@ -1,3 +1,4 @@
+
 :root {
 --lightgray:#EEE;
 --blue:#1C6DD0;
@@ -202,9 +203,12 @@ padding:3rem 0 4rem
 .postlist {
 list-style:none;
 padding:0;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
 gap: 2rem;
-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .postlist-item {
@@ -212,15 +216,21 @@ line-height:1.8;
 padding:1rem;
 border:.063rem solid var(--lightgray);
 border-radius:.25rem;
-flex: 1 1 25ch;
+-webkit-box-flex: 1;
+    -ms-flex: 1 1 25ch;
+        flex: 1 1 25ch;
 }
 
 .left-side {
-  flex-basis: 55ch;
+  -ms-flex-preferred-size: 55ch;
+      flex-basis: 55ch;
 }
 
 .right-side {
-  flex-basis: 20ch;
+  -ms-flex-preferred-size: 20ch;
+      flex-basis: 20ch;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   position: sticky;
   top:8rem
@@ -268,7 +278,8 @@ align-self:center
 }
 
 .archive {
-padding-inline-start: 1rem;
+-webkit-padding-start: 1rem;
+        padding-inline-start: 1rem;
 }
 
 footer {
