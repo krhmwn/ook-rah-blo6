@@ -172,7 +172,8 @@ display: none
 
 nav {
 color:var(--darkgray);
-float:right
+float:right;
+margin-top: 1%;
 }
 
 nav ul {
